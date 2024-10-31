@@ -4,7 +4,7 @@
 rm -rf .repo/local_manifests
 
 # Initialize repo with specified manifest
-repo init -u https://github.com/RisingOS-staging/android -b fifteen --git-lfs
+repo init -u https://github.com/RisingTechOSS/android -b fifteen --git-lfs
 
 # Clone local_manifests repository
 git clone https://github.com/shravansayz/local_manifests --depth 1 -b rise .repo/local_manifests
