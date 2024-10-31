@@ -21,6 +21,6 @@ export BUILD_HOSTNAME=crave
 
 #build
 source build/envsetup.sh
-riseup RMX1901 user
+riseup RMX1901 userdebug
 m installclean
 rise b
