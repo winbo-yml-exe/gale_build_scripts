@@ -10,7 +10,7 @@ repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 15
 git clone https://github.com/shravansayz/local_manifests.git --depth 1 -b test  .repo/local_manifests
 
 # Sync the repositories
-/opt/crave/resync.sh && /opt/crave/resync.sh
+/opt/crave/resync.sh
 
 export BUILD_USERNAME=shravan
 export BUILD_HOSTNAME=crave
