@@ -20,6 +20,9 @@ git clone https://github.com/shravansayz/frameworks_base_evox.git -b vic framewo
 rm -rf vendor/evolution-priv
 git clone https://github.com/shravansayz/private_keys.git -b rise vendor/evolution-priv
 
+# Git-lfs
+repo forall -c 'git lfs install && git lfs pull'
+
 # Set up build environment
 source build/envsetup.sh
 
