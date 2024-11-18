@@ -7,7 +7,7 @@ rm -rf .repo/local_manifests
 repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 15
 
 # Clone local_manifests repository
-git clone https://github.com/shravansayz/local_manifests.git --depth 1 -b test  .repo/local_manifests
+git clone https://github.com/shravansayz/local_manifests.git --depth 1 -b derp15  .repo/local_manifests
 
 # Sync the repositories
 /opt/crave/resync.sh
@@ -17,12 +17,11 @@ export BUILD_HOSTNAME=crave
 
 #customs
 rm -rf frameworks/base
-git clone https://github.com/kaderbava/frameworks_base.git -b 15 frameworks/base --depth=1
+git clone -b 15 https://github.com/shravansayz/frameworks_base_derp.git frameworks/base --depth=1
 
 # packages_apps_Settings
 rm -rf packages/apps/Settings
-git clone -b 15 https://github.com/kaderbava/packages_apps_Settings.git packages/apps/Settings
-
+git clone -b 15 https://github.com/shravansayz/packages_apps_Settings.git packages/apps/Settings
 
 #Private Keys
 rm -rf vendor/derp/signing
