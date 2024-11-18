@@ -4,7 +4,7 @@
 rm -rf .repo/local_manifests
 
 # Initialize repo with specified manifest
-repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 15
+repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 15 --depth=1 --git-lfs
 
 # Clone local_manifests repository
 git clone https://github.com/shravansayz/local_manifests.git --depth 1 -b derp15  .repo/local_manifests
