@@ -20,8 +20,8 @@ rm -rf frameworks/base
 git clone -b 15 https://github.com/shravansayz/frameworks_base_derp.git frameworks/base --depth=1
 
 # packages_apps_Settings
-rm -rf packages/apps/Settings
-git clone -b 15 https://github.com/shravansayz/packages_apps_Settings.git packages/apps/Settings
+#rm -rf packages/apps/Settings
+#git clone -b 15 https://github.com/shravansayz/packages_apps_Settings.git packages/apps/Settings
 
 #Private Keys
 rm -rf vendor/derp/signing
