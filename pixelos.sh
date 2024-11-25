@@ -4,7 +4,7 @@
 rm -rf .repo/local_manifests
 
 # Initialize repo with specified manifest
-repo init --depth=1 -u https://github.com/PixelOS-Fifteen/manifest.git -b fifteen
+repo init --depth=1 -u https://gitlab.com/ThankYouHonami/manifest.git -b fifteen --git-lfs
 
 # Clone local_manifests repository
 git clone https://github.com/shravansayz/local_manifests.git --depth 1 -b pixel .repo/local_manifests
