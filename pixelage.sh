@@ -12,6 +12,10 @@ git clone https://github.com/shravansayz/local_manifests --depth 1 -b pixelage .
 # Sync the repositories
 /opt/crave/resync.sh
 
+#customs
+rm -rf frameworks/base
+git clone https://github.com/shravansayz/android_frameworks_base_pixelage.git -b 15 frameworks/base --depth=1
+
 #Private Keys
 rm -rf vendor/lineage-priv
 git clone https://github.com/shravansayz/private_keys.git -b rise vendor/lineage-priv
