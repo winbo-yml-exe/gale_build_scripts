@@ -16,7 +16,7 @@ git clone https://github.com/MohamedDevvv/Build-.git --depth 1 -b main  .repo/lo
 rm -rf vendor/2by2-priv
 git clone https://github.com/shravansayz/private_keys.git -b rise vendor/2by2-priv
 
-export BUILD_USERNAME=Mohamed 👾
+export BUILD_USERNAME=Mohamed @SudoMohamed
 export BUILD_HOSTNAME=crave
 
 #build
