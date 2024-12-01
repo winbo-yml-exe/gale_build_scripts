@@ -4,7 +4,7 @@
 rm -rf .repo/local_manifests
 
 # Initialize repo with specified manifest
-repo init -u https://github.com/CipherOS/android_manifest.git -b fourteen --git-lfs
+repo init -u https://github.com/CipherOS/android_manifest.git -b fourteen-qpr --git-lfs
 
 # Clone local_manifests repository
 git clone https://github.com/winbo-yml-exe/local_manifests --depth 1 -b main  .repo/local_manifests
